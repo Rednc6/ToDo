@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,11 +9,11 @@ namespace ToDo.Model
 {
     class ActivityFunctions
     {
-        public List<Activities> ActivityList { get; set; }
+        public ObservableCollection<Activities> ActivityList { get; set; }
 
         public ActivityFunctions()
         {
-            ActivityList = new List<Activities>();
+            ActivityList = new ObservableCollection<Activities>();
         }
 
         public void AddToList(Activities activityToAdd)

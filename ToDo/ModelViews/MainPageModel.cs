@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToDo.ModelView
+namespace ToDo.ModelViews
 {
-    class FrontPageViewModel
+    class MainPageModel
     {
     }
 }

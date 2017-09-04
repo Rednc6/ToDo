@@ -95,12 +95,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ModelViews\MainPageModel.cs" />
+    <Compile Include="Persistency\Webservice.cs" />
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ModelViews\FrontPageViewModel.cs" />
-    <Compile Include="ModelViews\LogInViewModel.cs" />
-    <Compile Include="ModelViews\NewToDoViewModel.cs" />
     <Compile Include="Models\Activities.cs" />
     <Compile Include="Models\ActivityFunctions.cs" />
     <Compile Include="Models\RelayCommand.cs" />
