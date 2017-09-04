@@ -95,15 +95,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ModelView\FrontPageViewModel.cs" />
-    <Compile Include="ModelView\LogInViewModel.cs" />
-    <Compile Include="ModelView\NewToDoViewModel.cs" />
-    <Compile Include="Model\Activities.cs" />
-    <Compile Include="Model\ActivityFunctions.cs" />
-    <Compile Include="Model\RelayCommand.cs" />
+    <Compile Include="ModelViews\FrontPageViewModel.cs" />
+    <Compile Include="ModelViews\LogInViewModel.cs" />
+    <Compile Include="ModelViews\NewToDoViewModel.cs" />
+    <Compile Include="Models\Activities.cs" />
+    <Compile Include="Models\ActivityFunctions.cs" />
+    <Compile Include="Models\RelayCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -127,21 +127,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainPage.xaml">
+    <Page Include="Views\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\FrontPageView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\LogInView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\NewToDoView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
