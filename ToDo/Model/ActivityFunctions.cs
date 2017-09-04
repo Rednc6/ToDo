@@ -15,14 +15,14 @@ namespace ToDo.Model
             ActivityList = new List<Activities>();
         }
 
-        public void AddToList()
+        public void AddToList(Activities activityToAdd)
         {
-            
+            ActivityList.Add(activityToAdd);
         }
 
-        public void RemoveFromList()
+        public void RemoveFromList(Activities activityToRemove)
         {
-            
+            ActivityList.Remove(activityToRemove);
         }
     }
 }
